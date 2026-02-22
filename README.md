@@ -4,15 +4,10 @@
 </p>
 
 ---
-<p align="center">
 
-  # 💬 Anonymous Chat System
-</p>
+<h1 align="center">💬 Anonymous Chat System</h1>
 
 <p align="center">
-
-
-  
   🚀 Real-Time Anonymous Chat Application <br>
   Built with Flask, Flask-SocketIO & WebSockets
 </p>
@@ -35,9 +30,9 @@
 
 ## 🌍 Live Demo
 
-🔗 **https://acs-wxid.onrender.com**
-
-Open in two browsers to test real-time messaging.
+<p align="center">
+  🔗 <b>https://acs-wxid.onrender.com</b>
+</p>
 
 ---
 
@@ -166,10 +161,10 @@ gunicorn --worker-class eventlet -w 1 app:app
 
 ## 👨‍💻 Developer
 
-**Aditya Sing**
-
-💼 Aspiring Software Engineer  
-🌍 Passionate about Real-Time Systems & Web Development  
+<p align="center">
+  <b>Aditya Sing</b><br>
+  Aspiring Software Engineer 🚀
+</p>
 
 ---
 
