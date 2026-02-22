@@ -4,12 +4,14 @@
 </p>
 
 ---
-
-
-
 <p align="center">
 
   # 💬 Anonymous Chat System
+</p>
+
+<p align="center">
+
+
   
   🚀 Real-Time Anonymous Chat Application <br>
   Built with Flask, Flask-SocketIO & WebSockets
