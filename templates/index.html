@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HiChat</title>
+<link rel="stylesheet" href="/static/style.css">
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+
+<div class="app">
+    <header>
+        💬 HiChat – Open Anonymous Chat
+        <div id="me"></div>
+    </header>
+
+    <div id="messages"></div>
+
+    <div class="input">
+        <input id="text" placeholder="Type a message…">
+        <button onclick="send()">Send</button>
+    </div>
+
+    <!-- 🔹 CHANGE NAME -->
+    <div class="rename">
+        <input id="newname" placeholder="New username">
+        <button onclick="changeName()">Change Name</button>
+    </div>
+</div>
+
+<footer class="footer">
+    Developed by Aditya Sing
+</footer>
+
+<script src="/static/ui.js"></script>
+</body>
+</html>
