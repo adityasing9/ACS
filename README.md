@@ -5,9 +5,12 @@
 
 ---
 
-# 💬 Anonymous Chat System
+
 
 <p align="center">
+
+  # 💬 Anonymous Chat System
+  
   🚀 Real-Time Anonymous Chat Application <br>
   Built with Flask, Flask-SocketIO & WebSockets
 </p>
