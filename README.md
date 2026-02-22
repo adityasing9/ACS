@@ -1,20 +1,18 @@
-<!-- Animated Typing Banner -->
+<!-- Premium Animated Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=2F80ED&center=true&vCenter=true&width=800&lines=Anonymous+Chat+System;Real-Time+WebSocket+Chat+Application;Built+with+Flask+%7C+Socket.IO+%7C+Render" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:4F46E5,50:06B6D4,100:9333EA&text=%F0%9F%92%AC%20Anonymous%20Chat%20System&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
 </p>
 
----
-
-<h1 align="center">💬 Anonymous Chat System</h1>
-
+<!-- Animated Subtitle -->
 <p align="center">
-  🚀 Real-Time Anonymous Chat Application <br>
-  Built with Flask, Flask-SocketIO & WebSockets
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=700&lines=Real-Time+WebSocket+Chat+Application;Built+with+Flask+%7C+Socket.IO+%7C+Render;Open+Source+%7C+Scalable+%7C+Production+Ready" />
 </p>
 
----
-
-## 🏷 Badges
+<!-- Glowing Divider -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:4F46E5,50:06B6D4,100:9333EA" />
+</p>
+ 🏷 Badges
 
 <p align="center">
 
@@ -181,3 +179,4 @@ If you like this project:
 ## 📜 License
 
 This project is open-source and free to use.
+
