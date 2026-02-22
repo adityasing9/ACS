@@ -1,37 +1,61 @@
-# 💬 Anonymous Chat System
-
+<!-- Animated Typing Banner -->
 <p align="center">
-  <b>Real-Time Anonymous Chat Application</b><br>
-  Built with Flask, Flask-SocketIO & WebSockets 🚀
-</p>
-
-<p align="center">
-  🌍 <b>Live Demo:</b><br>
-  <a href="https://acs-wxid.onrender.com" target="_blank">
-    https://acs-wxid.onrender.com
-  </a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=2F80ED&center=true&vCenter=true&width=800&lines=Anonymous+Chat+System;Real-Time+WebSocket+Chat+Application;Built+with+Flask+%7C+Socket.IO+%7C+Render" alt="Typing SVG" />
 </p>
 
 ---
 
-## ✨ Features
+# 💬 Anonymous Chat System
 
-- 🔥 Real-time messaging using WebSockets  
-- 👤 Auto-generated anonymous usernames  
-- ✏ Users can change username anytime  
-- 🌐 Public global chat room  
-- 📱 Responsive user interface  
-- ⚡ Deployed on Render  
+<p align="center">
+  🚀 Real-Time Anonymous Chat Application <br>
+  Built with Flask, Flask-SocketIO & WebSockets
+</p>
+
+---
+
+## 🏷 Badges
+
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+![Flask](https://img.shields.io/badge/Flask-Framework-black?style=for-the-badge&logo=flask)
+![SocketIO](https://img.shields.io/badge/WebSockets-Socket.IO-green?style=for-the-badge&logo=socket.io)
+![Render](https://img.shields.io/badge/Deployed-Render-purple?style=for-the-badge&logo=render)
+![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)
+
+</p>
+
+---
+
+## 🌍 Live Demo
+
+🔗 **https://acs-wxid.onrender.com**
+
+Open in two browsers to test real-time messaging.
+
+---
+
+## ✨ Key Features
+
+✔ Real-time messaging using WebSockets  
+✔ Automatic anonymous username assignment  
+✔ Dynamic username change  
+✔ Public chat room broadcasting  
+✔ Clean & responsive UI  
+✔ Production-ready deployment  
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Backend:** Python, Flask  
-- **Real-Time Engine:** Flask-SocketIO  
-- **Production Server:** Gunicorn + Eventlet  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Deployment:** Render  
+| Layer | Technology |
+|-------|------------|
+| Backend | Python + Flask |
+| Real-Time | Flask-SocketIO |
+| Production Server | Gunicorn + Eventlet |
+| Frontend | HTML, CSS, JavaScript |
+| Hosting | Render |
 
 ---
 
@@ -51,9 +75,21 @@ anonymous-chat-system/
 
 ---
 
+## ⚙ How It Works
+
+1. User connects to the server  
+2. Server assigns a random numeric username  
+3. User joins the public chat room  
+4. Messages are broadcast to all connected clients  
+5. Username can be updated in real-time  
+
+WebSockets ensure instant two-way communication ⚡
+
+---
+
 ## 🚀 Run Locally
 
-### 1️⃣ Clone Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/adityasing9/ACS.git
@@ -66,7 +102,7 @@ cd ACS
 python -m venv venv
 ```
 
-Activate virtual environment:
+Activate environment:
 
 **Windows**
 ```bash
@@ -98,7 +134,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🌍 Deployment (Render)
+## 🌐 Deployment (Render)
 
 **Build Command**
 ```bash
@@ -112,33 +148,33 @@ gunicorn --worker-class eventlet -w 1 app:app
 
 ---
 
-## 🧠 How It Works
+## 📈 Future Enhancements
 
-- When a user connects:
-  - The server assigns a random numeric username
-  - The user joins the public chat room
-- Messages are broadcast to all connected users
-- Username can be changed dynamically
-- WebSockets ensure instant message delivery
-
----
-
-## 🔮 Future Improvements
-
-- 🔐 Login authentication  
+- 🔐 Authentication system  
 - 🧵 Private chat rooms  
-- 💾 Database for message storage  
+- 💾 Database message storage  
 - 🌙 Dark mode  
 - 🛡 Admin moderation panel  
-- 📱 Mobile application version  
+- 📱 Mobile application  
 
 ---
 
 ## 👨‍💻 Developer
 
-Developed by **Aditya Sing**
+**Aditya Sing**
 
-If you like this project, give it a ⭐ on GitHub!
+💼 Aspiring Software Engineer  
+🌍 Passionate about Real-Time Systems & Web Development  
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+👉 Give it a **Star** on GitHub  
+👉 Fork it  
+👉 Share it  
 
 ---
 
