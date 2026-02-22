@@ -34,7 +34,17 @@ input.addEventListener("keydown", e => {
 
 function add(text, cls) {
     const d = document.createElement("div");
-    d.className = cls;
+
+    if (cls === "msg") {
+        if (text.startsWith(me + ":")) {
+            d.className = "msg me";
+        } else {
+            d.className = "msg other";
+        }
+    } else {
+        d.className = cls;
+    }
+
     d.innerText = text;
     box.appendChild(d);
     d.scrollIntoView();
